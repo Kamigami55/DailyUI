@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign UP</title>
+  
+  <!-- JQuery, Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="signup.js"></script>
+</head>
+
+<body>
+  <h1 class="text-center">DailyUI #001</h1>
+  <h1 class="text-center">Sign Up</h1>
+  <button id="joinus" type="button" class="btn btn-lg btn-success">Join us!</button>
+  <div id="ground">
+    <p>Made by Eason Chang</p>
+    <!-- <div id="links">
+      <a href="https://www.facebook.com/chang.yin.hsiang"><span class="glyphicon glyphicon-globe"></span></a>
+    </div> -->
+  </div>
+  <div id="cloud1" class="cloud"></div>
+  <div id="cloud2" class="cloud"></div>
+  <div id="cloud3" class="cloud"></div>
+  <div id="cloud4" class="cloud"></div>
+  <div id="cloud5" class="cloud"></div>
+  <div id="sun"></div>
+  <div id="agent"></div>
+  <div id="user"></div>
+  <div id="grass"></div>
+  <div id="chat">
+    <div id="i-am-agent" class="agent-bubble">Hello! I am your personal guide.<br/>I'll help you to join us!</div>
+    <div id="what-is-your-name" class="agent-bubble">First, what's your name?</div>
+    <div id="my-name-is" class="user-bubble">My name is: <input id="username-input" type="text"></div>
+    <div id="nice-to-meet-you" class="agent-bubble">Nice to meet you, <span id="username-display"></span>!</div>
+    <div id="what-email" class="agent-bubble">Next, what is your email address?</div>
+    <div id="my-email" class="user-bubble">This is my email: <input id="email-input" type="text"></div>
+    <div id="what-pw" class="agent-bubble">OK! Then, what is your password?</div>
+    <div id="what-pw2" class="agent-bubble">Please tell my in a whisper :)</div>
+    <div id="my-pw" class="user-bubble"><input id="pw-input" type="password"> is my password.</div>
+    <div id="what-pw3" class="agent-bubble">Last of all, tell me your password again!</div>
+    <div id="my-pw2" class="user-bubble"><input id="pw2-input" type="password"> , thank you!</div>
+    <div id="please-check" class="agent-bubble">OK! The following is your account detail.<br/>Please check them carefully!</div>
+    <div id="detail" class="agent-bubble">User name: <span id="username-check"></span><br/>
+      Email: <span id="email-check"></span><br/>
+      Password: <span id="pw-check">••••••••</span>
+    </div>
+    <div id="is-correct" class="agent-bubble">Is all correct?</div>
+    <div id="yes-no" class="user-bubble"><button id="yes" class="btn btn-primary">Yes, thank you!</button> <button id="no" class="btn btn-danger" disabled="disable">No... It's wrong..</button></div>
+    <div id="welcome" class="agent-bubble">OK! Welcome, <span id="welcome-username"></span>!!</div>
+  </div>
+</body>
+</html>
